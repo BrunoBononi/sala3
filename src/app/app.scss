@@ -1,16 +1,63 @@
-// http://ionicframework.com/docs/theming/
+//Import font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+//Global
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+//Align
+.center {
+    text-align: center
+}
+
+//Margin
+.mg-neg-50 {
+    margin-top: -50px;
+}
 
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+.no-margin {
+    margin: 0px
+}
+.mg-top-5 {
+    margin-top: 5px;
+}
+.mg-top-10 {
+    margin-top: 10px;
+}
+.mg-top-20 {
+    margin-top: 20px;
+}
+.mg-top-30 {
+    margin-top: 30px;
+}
+.mg-top-40 {
+    margin-top: 40px;
+}
+
+//Padding
+.no-padding {
+    padding: 0px
+}
+.padding-40 {
+    padding: 40px
+}
+
+.padding-10-percent {
+    padding: 10px
+}
+
+.padding-top-10-percent {
+    padding-top: 10%
+}
+.padding-top-30 {
+    padding-top: 30px
+}
+
+//Font style
+.bold {
+    font-weight: 700
+}
+.light {
+    font-weight: 300
+}
